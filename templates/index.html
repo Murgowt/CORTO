@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CORTO</title>
+    <H1> Welcome to the Home Page !!</H1>
+</head>
+<body>
+    <br>
+    <br>
+    <form action="/New-URL" method="post">
+        {% csrf_token %}
+        <h4><label>Enter the Url here</label></h4>
+        <input id="url" type="text" name="name_url" value="Enter URL">
+        <br><br>
+        <input id="submit" type="submit" name="submit_button" value="OK">
+        <br>
+    </form>
+</body>
+</html>
