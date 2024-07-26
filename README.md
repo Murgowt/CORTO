@@ -1,2 +1,2 @@
 # CORTO
- A URL Shortening Web App
+ A URL Shortening Web App.
